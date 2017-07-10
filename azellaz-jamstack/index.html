@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/theme/solarized.css">
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
 		<meta name="description" content="Slides for Brian Zelip's talk at City Garage, Baltimore, for the Jr Web Dev Meetup, 2017-07-10.">
 		<meta name="author" content="Brian Zelip">
 	</head>
@@ -22,14 +23,14 @@
 				<section>
 					<p class="h0 text-transform-none">Azellaz.com</p>
 					<p class="h1 py3 text-transform-none">A Look at the Build Tools and Microservices of a Jekyll and npm Ecommerce #JAMstack</p>
-					<p class="h2 text-transform-none">@bzelip</p>
+					<p class="h2 text-transform-none"><i class="fa fa-github"></i> brianzelip</p>
 				</section>
 
 				<section>
 					<div>
 						<p class="h2">About me</p>
 						<ul>
-							<li>👣 🚲 Live in Bolton Hill, walk and bike to work in downtown Baltimore</li>
+							<li>👣 Live in Bolton Hill, walk to work in downtown Baltimore</li>
 							<li>🐩 Married with dog</li>
 							<li>🍺 Lots of Boh and other craft brew</li>
 							<li>📚 Emerging Technologies Librarian, University of Maryland, Baltimore</li>
@@ -40,15 +41,18 @@
 
 				<section>
 					<p class="h1">A Look at the Build Tools and Microservices of a Jekyll and npm Ecommerce #JAMstack</p>
+				</section>
+
+				<section>
 					<p class="h2">tl;dr</p>
 					<ul>
-						<li>JAMstack - <u>J</u>avaScript, <u>A</u>PIs, <u>M</u>arkup</li>
-						<li>Netlify - free hosting / build environment / https / CDN</li>
-						<li>Snipcart - developer friendly shopping cart API</li>
-						<li>Stripe - online payment gateway</li>
-						<li>GitHub - git collaboration and workflow, issue tracker</li>
-						<li>Jekyll - static site generator</li>
-						<li><code>npm</code> modules and scripts - front end build tools</li>
+						<li class="fragment fade-right">JAMstack - <u>J</u>avaScript, <u>A</u>PIs, <u>M</u>arkup</li>
+						<li class="fragment fade-right">Netlify - free hosting / build environment / https / CDN</li>
+						<li class="fragment fade-right">Snipcart - developer friendly shopping cart API</li>
+						<li class="fragment fade-right">Stripe - online payment gateway</li>
+						<li class="fragment fade-right">GitHub - git collaboration and workflow, issue tracker</li>
+						<li class="fragment fade-right">Jekyll - static site generator</li>
+						<li class="fragment fade-right"><code>npm</code> modules and scripts - front end build tools</li>
 					</ul>
 				</section>
 
@@ -77,9 +81,14 @@
 				</section>
 
 				<section>
+					<p class="h1">Atomic CSS<br>(don't write CSS, 🎨 with it!)</p>
+				</section>
+
+				<section>
 					<p class="h1">Additional points</p>
 					<ul>
-						<li>ie 10/11 plus <code>flexbox</code> - lotsa fun 🎉🎉</li>
+						<li>ie 10/11 plus <code>flexbox</code> - lotsa fun 🎉🎉. Thank you flexbugs!</li>
+						<li>Zoho mail - one free email @ custom domain</li>
 						<li>vertical oriented logo was an interesting challenge</li>
 						<li>image optimization workflow</li>
 						<li>text editor &amp; git workflow with my wife for site update</li>
@@ -104,7 +113,8 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+				width: 1200
 			});
 		</script>
 
