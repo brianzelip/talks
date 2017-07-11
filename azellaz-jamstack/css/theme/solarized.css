@@ -424,3 +424,6 @@ body,
     padding-left: 4rem;
     padding-right: 4rem
 }
+
+.reveal .black { color: #657b83; }
+.reveal .no-underline { text-decoration: none; }
