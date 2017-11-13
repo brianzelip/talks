@@ -43,3 +43,9 @@ What's next / what didn't I get to in this app:
   - make more robust slugs on create/edit member
   - testing - i think i need browser not unit testing; nightwatch.js?
   - deploying it to the web (see mlab, glitch, and now)
+
+
+MVC example frameworks references:
+https://youtu.be/1IsL6g2ixak?t=5m10s
+https://youtu.be/pCvZtjoRq1I?t=1m38s
+http://expressjs.com/en/resources/frameworks.html
