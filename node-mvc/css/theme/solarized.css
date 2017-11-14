@@ -587,3 +587,7 @@ body,
 .reveal .small-caps {
   font-variant-caps: small-caps;
 }
+
+.purp {
+  color: rgb(244, 64, 179);
+}
