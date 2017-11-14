@@ -1,1 +1,3 @@
-## A Look at the Build Tools and Microservices of a Jekyll and npm Ecommerce \#JAMstack
+Slides for my JrWebDev meetup talk, *JavaScript Model View Controller App Demo*.
+
+App at [brianzelip/mvc-demo](https://github.com/brianzelip/mvc-demo).
