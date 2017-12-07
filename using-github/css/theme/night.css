@@ -415,6 +415,10 @@ body,
   font-size: 0.75em;
 }
 
+.reveal .block {
+  display: block;
+}
+
 /* whitespace */
 .reveal .m0 {
   margin: 0;
