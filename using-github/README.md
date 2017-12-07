@@ -1,3 +1,2 @@
-Slides for my JrWebDev meetup talk, *JavaScript Model View Controller App Demo*.
-
-App at [brianzelip/mvc-demo](https://github.com/brianzelip/mvc-demo).
+Slides for my [MD TechConnect 2017](http://mdtechconnect2017.weebly.com/) talk,
+_Using GitHub for Collaboration and Learning_.
