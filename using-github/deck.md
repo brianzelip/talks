@@ -17,3 +17,5 @@ zelip.me
 ## web publishing
 
 ## access to the public work of thousands of others to learn from and use
+
+## alternatives - GitLab, BitBucket

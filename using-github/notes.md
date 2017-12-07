@@ -1,51 +1,42 @@
-Title
+github is to git as dropbox is to storage
 
-About me
+* github is a git server app that
 
-Intro
-So, a couple weeks ago I started working on this app for this talk, and I just shipped the minimum viable product this past weekend.
+What is git?
 
-Node
-  - imports / exports
+* it's a system that records changes to our files over time
+* we can recall any specific version of any file at any time
+* allows many people to collaborate around the same files, where each person has
+  their own copy/version of the project on the computer they're working on at
+  that moment.
+* store all revisions to an entire project in one "git-tracked" directory
+* _show them the "why we use version control" cartoon_
 
-Express
-  - middleware
-    - flashes
-    - upload
-    - resize
-  - routing
-  - singleton
-  - show docs
+"git tracked files" or "under git control"
 
-Pug
-  - js and logic
-  - extends and mixins
-  - compare it to liquid in gh pages
-  - the edit-member method used to populate form fields with existing data
-  - show docs
+show examles of the nice user experience of recognizing file types, syntax
+highlighting
 
-MongoDB
-  - install it, run it via cli
-  - Compass app (like phpMyAdmin)
-  - Mongoose
-  - show docs
+* geo
+* 3d models
+* csv
+* markdown
+* readme
 
-Controller
+GH helps promote/spread consciousness of concepts that librarians tend to
+promote:
 
-View
+* readme
+  * https://help.github.com/articles/about-readmes/
+  * Every repo contains a README, which is a document that is intended to
+    explain, at first glance, what a project does and how to install or test the
+    code.
+* code of conduct
+* LICENSE
+  * https://choosealicense.com/
 
-Model
+## resources document
 
-
-
-What's next / what didn't I get to in this app:
-  - user login and sessions, edit profile button becomes available w/ user credentials
-  - make more robust slugs on create/edit member
-  - testing - i think i need browser not unit testing; nightwatch.js?
-  - deploying it to the web (see mlab, glitch, and now)
-
-
-MVC example frameworks references:
-https://youtu.be/1IsL6g2ixak?t=5m10s
-https://youtu.be/pCvZtjoRq1I?t=1m38s
-http://expressjs.com/en/resources/frameworks.html
+* general FYIs
+  * ## https://opensource.guide/
+  * https://choosealicense.com/
