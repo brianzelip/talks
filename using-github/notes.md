@@ -38,5 +38,5 @@ promote:
 ## resources document
 
 * general FYIs
-  * ## https://opensource.guide/
+  * https://opensource.guide/
   * https://choosealicense.com/

@@ -350,8 +350,7 @@ body {
    * OVERRIDES
    *********************************************/
 
-body,
-.reveal,
+.reveal body,
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -364,25 +363,28 @@ body,
 .reveal .h3,
 .reveal .h4,
 .reveal .h5,
-.reveal .h6 {
+.reveal .h6,
+.reveal p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
-.reveal h1,
-.reveal h2,
-.reveal .h0,
-.reveal .h1,
-.reveal .h2 {
+.reveal .heading {
   padding: 1rem 1.5rem;
   font-weight: 500;
   background-color: white;
   color: black;
+  text-align: left;
 }
 
 .vh100 {
   min-height: 100vh;
 }
+
+.vw60 {
+  min-width: 60vw;
+}
+
 .fw400 {
   font-weight: 400;
 }
@@ -409,6 +411,19 @@ body,
 .reveal .h2,
 .reveal h2 {
   font-size: 1.75em;
+}
+
+.reveal .h3,
+.reveal h3 {
+  font-size: 1.5em;
+}
+
+.reveal .h4 {
+  font-size: 1em;
+}
+
+.reveal .h5 {
+  font-size: 0.9em;
 }
 
 .reveal .h6 {
@@ -576,6 +591,9 @@ body,
 .reveal .align-left {
   text-align: left;
 }
+.reveal .center {
+  text-align: center;
+}
 
 .reveal .title {
   word-wrap: break-word;
@@ -633,7 +651,7 @@ body,
 }
 
 .reveal a:hover {
-  color: white;
+  color: purple;
 }
 
 /* progress bar */
@@ -676,4 +694,10 @@ body,
 
 .reveal .controls .navigate-down.enabled:hover {
   border-top-color: white;
+}
+
+.reveal .phd01 {
+  background-image: url(/img/phd01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
