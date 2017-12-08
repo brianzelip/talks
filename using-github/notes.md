@@ -35,8 +35,21 @@ promote:
 * LICENSE
   * https://choosealicense.com/
 
-## resources document
+GH use cases by discipline:
 
-* general FYIs
-  * https://opensource.guide/
-  * https://choosealicense.com/
+* politics, https://github.com/WhiteHouse
+* media, https://github.com/nytimes
+* science, https://github.com/nasa
+* libraries, https://github.com/DSpace
+* literature, Open SF Novel, https://github.com/OpenSFNovels/opensfnovel01;
+  Awesome-Fantasy Literature, https://github.com/RichardLitt/awesome-fantasy
+* arts - Church Music Association of America, https://github.com/CMAA
+* furniture! - https://github.com/steiza/open_source_furniture
+
+git as gateway drug to coding literacy
+
+* the reason is it lets you navigate the file directory, which you want to do
+  regardless of "wanting to code" or not)
+* because github is so developer-centric, it makes it very easy to push and pull
+  information projects around
+* show example of pushing

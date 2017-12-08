@@ -19,3 +19,13 @@ zelip.me
 ## access to the public work of thousands of others to learn from and use
 
 ## alternatives - GitLab, BitBucket
+
+## Version control system
+
+## Data sharing tool
+
+## Collaboration tool
+
+## Discovery tool
+
+## Free web hosting service
